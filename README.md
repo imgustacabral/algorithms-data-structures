@@ -1,7 +1,7 @@
 # 📚 Data Structures & Algorithms
 
-Este é o repositório do curso de Data Structures & Algorithms que estou fazendo na Udemy.
-[Link do curso](https://www.udemy.com/course/data-structures-algorithms-javascript/)
+Este é o repositório do curso de [Data Structures & Algorithms](https://www.udemy.com/course/data-structures-algorithms-javascript/) que estou fazendo na Udemy.
+
 
 ## 🎓 Conteúdo
 

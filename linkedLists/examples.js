@@ -61,6 +61,13 @@ class LinkedList {
 
     return temp;
   }
+  forEach(func) {
+    if(this.length === 0) return undefined
+
+    for(let i = 0; i < this.length; i++) {
+      func(this.get(i))
+    }
+  }
   // Big O(1)
   unshift(value) {
     const newNode = new Node(value);
@@ -169,7 +176,8 @@ class LinkedList {
 }
 
 const myLinkedList = new LinkedList(4);
-// myLinkedList.push(3);
+myLinkedList.push(3);
+myLinkedList.push(399);
 // myLinkedList.pop();
 // myLinkedList.unshift(1);
 // myLinkedList.shift();
@@ -177,4 +185,6 @@ const myLinkedList = new LinkedList(4);
 // myLinkedList.insert(0, 98);
 // myLinkedList.push(3);
 // myLinkedList.remove(1);
-// console.log(myLinkedList.reverse());
+// myLinkedList.forEach((node) => {
+//   console.log(node)
+// })

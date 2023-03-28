@@ -1,17 +1,18 @@
-// Queue (Fila) é uma estrutura de dados linear que segue a política First-In-First-Out (FIFO),
-// Onde o primeiro elemento inserido é o primeiro a ser removido.
+/* Queue (Fila) é uma estrutura de dados linear que segue a política First-In-First-Out (FIFO),
+Onde o primeiro elemento inserido é o primeiro a ser removido.
 
-// Uso com array
-// Inserção com push(value) seria O(1), remoção com shift() seria O(n)
-// Inserção com unshift(value) seria O(n), remoção com pop() seria O(1)
+Uso com array
+Inserção com push(value) seria O(1), remoção com shift() seria O(n)
+Inserção com unshift(value) seria O(n), remoção com pop() seria O(1)
 
-// Uso com Linked Lists
-// Inserção com push(value) seria O(1), remoção com unshift() seria O(1)
+Uso com Linked Lists
+Inserção com push(value) seria O(1), remoção com unshift() seria O(1)
 
-// Linked List Queue
+Linked List Queue
 
-// First            Last
-//   11 -> 3 -> 23 -> 7
+First            Last
+  11 -> 3 -> 23 -> 7 
+*/
 
 class Node {
   constructor(value) {

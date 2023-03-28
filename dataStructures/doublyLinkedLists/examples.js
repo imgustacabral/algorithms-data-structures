@@ -1,8 +1,14 @@
-// Diferenças
-// Linked List tem um único ponteiro que aponta para o próximo nó, 
-// Enquanto a Doubly Linked List tem dois ponteiros, um para o próximo nó e outro para o nó anterior.
-// Desvantagens: Inserção e remoção mais complexas
-// Vantagens: Percorre a lista nos 2 sentidos, sendo mais rápida que a LinkedList
+/* Diferença da Linked List
+Linked List tem um único ponteiro que aponta para o próximo nó, 
+Enquanto a Doubly Linked List tem dois ponteiros, um para o próximo nó e outro para o nó anterior.
+Desvantagens: Inserção e remoção mais complexas
+Vantagens: Percorre a lista nos 2 sentidos, sendo mais rápida que a LinkedList
+
+Exemplo
+      Tail         Head 
+       5 -> 10 -> 9 -> null 
+       null <- 5 <- 10 <- 9 
+*/
 class Node {
   constructor(value) {
     this.value = value;

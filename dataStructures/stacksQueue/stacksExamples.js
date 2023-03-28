@@ -1,12 +1,20 @@
-// Stack (Pilha) é uma estrutura de dados linear
-// que usa a política Last-In-First-Out (LIFO)
-// onde o último elemento inserido é o primeiro a ser removido.
+/* Stack (Pilha) é uma estrutura de dados linear
+que usa a política Last-In-First-Out (LIFO)
+onde o último elemento inserido é o primeiro a ser removido.
 
+Basicamente é apenas adicionar ao final com push e remover com pop
+não utilizar com unshift e shift pois são O(n) é necessário reindexar
+Um exemplo de uso é o gerenciamento do historico de um browser
 
-// Basicamente é apenas adicionar ao final com push e remover com pop
-// não utilizar com unshift e shift pois são O(n) é necessário reindexar
-// Um exemplo de uso é o gerenciamento do historico de um browser
-
+Exemplo de um Stack
+        5
+        ^
+        4
+        ^
+        3
+        ^
+        1
+*/
 
 // Uso com arrays
 const stack = [];

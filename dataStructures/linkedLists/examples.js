@@ -1,15 +1,15 @@
-// Linked Lists Big O
+/* Linked Lists Big O
 
-// Exemplo de Linked List
+Exemplo de Linked List
 
-// Head            Tail
-//  11 -> 3 -> 23 -> 7 -> null
+Head            Tail
+ 11 -> 3 -> 23 -> 7 -> null
 
-// Cada elemento aponta para o próximo endereço em memória
-// Sendo o Head o inicio e o Tail o ultimo que pode ser identificado ao apontar para null.
+Cada elemento aponta para o próximo endereço em memória
+Sendo o Head o inicio e o Tail o ultimo que pode ser identificado ao apontar para null.
 
-// A grande diferença para array é que a Linked List são varios endereços em memória de forma desordenada
-// Já os arrays são variaveis com endereço em memória em sequência
+A grande diferença para array é que a Linked List são varios endereços em memória de forma desordenada
+Já os arrays são variaveis com endereço em memória em sequência */
 
 class Node {
   constructor(value) {
